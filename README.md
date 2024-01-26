@@ -22,7 +22,7 @@ Initially, all files from E:\Photos are moved to E:\files.
 Then, the files in E:\Photos are renamed based on their creation date and time.
 Finally, the files in E:\files are organized into folders based on their modification date.
 
-Note: It's important to understand the interactions between these scripts and the content of the folders you are working with. Depending on the number of files and the specific timestamps, there might be overwriting or duplication issues, especially if there are files with the same timestamps in the source and destination folders. Always ensure you have backups before running scripts that modify or move files.
+Note: It's important to understand the interactions between these scripts and the content of the folders you are working with. Depending on the number of files and the specific timestamps, there might be overwriting or duplication issues, especially if there are files with the same timestamps in the source and destination folders.** Always ensure you have backups before running scripts that modify or move files.**
 
 To run the provided Python scripts, you can follow these general steps:
 
@@ -33,9 +33,13 @@ If you haven't installed Python on your system, you can download and install it 
 Create Backup:
 
 Before running any scripts that modify or move files, it's a good practice to create a backup of the relevant folders to avoid accidental data loss.
-Edit Script Paths:
 
-Open each script in a text editor and make sure to update the folder paths in the scripts to point to the correct directories on your system.
+**Edit Script Paths:**
+**Open each script in a text editor and make sure to update the folder paths in the scripts to point to the correct directories on your system.
+**
+
+![Screenshot 2024-01-26 014330](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/2cffe302-103c-4939-b6d5-35c24c33d94a)
+
 
 Run Scripts:
 Open a command prompt or terminal window.
@@ -56,6 +60,7 @@ Check the output of each script in the console to ensure there are no errors and
 Remember to customize the scripts based on your specific use case, and always exercise caution when running scripts that modify or move files. Ensure you have backups in case anything goes wrong.
 
 
+![Example](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/d6eeb744-0c3b-4478-998f-fa09211d8f43)
 
 
 
