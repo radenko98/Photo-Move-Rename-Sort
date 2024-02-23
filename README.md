@@ -7,12 +7,15 @@ After execution, all files from source folder(E:\Photos) and its subfolders are 
 
 **2nd Script - Rename Files Script:   !!!!Choose which script do you want to run, you have 2 options!!!!**  
 
-**Option 1: Renaming files according to creation date**
+**Option 1: Renaming files according to their creation date**
+
 This script (rename_files_by_creation_datetime) renames all files in E:\Photos based on their creation date and time. It iterates through each file, retrieves its creation time, and renames the file using a format like 'YYYYMMDD_HHMMSS'.
 Duplicate names are handled by appending a counter to the filename if needed. After execution, all files in E:\Photos are renamed based on their creation date and time.
 
 **Option 2: Renaming files according to date taken**
-This script includes the get_date_taken function to extract the date taken from image metadata using the Pillow library. The rename_files_by_date_taken function then renames files based on this date taken information.
+
+To use this script, you need to first run a command in python console "pip install Pillow"
+Does the same thing like previous script, but renames files according to date taken. This script includes the get_date_taken function to extract the date taken from image metadata using the Pillow library. The rename_files_by_date_taken function then renames files based on this date taken information.
 
 **3rd Script - Organize Files Script:   !!!!Choose which script do you want to run, you have 2 options!!!!**  
 
@@ -23,7 +26,7 @@ It iterates through each file in E:\files, retrieves its modification time, crea
 After execution, files in E:\files are organized into folders based on their modification date.
 
 **Option 2: Photo sorter by month and year according to date taken**
-
+To use this script, you need to first run a command in python console "pip install Pillow"
 This Script uses the Pillow library to extract the date taken from image metadata and then organizes the photos into subfolders based on that date. The get_date_taken function attempts to extract the date taken from the image metadata, and the organize_photos_by_date_taken function then uses this information to move the files to the appropriate subfolders. If the date taken information is not available for a file, it will be skipped and a message will be printed.
 
 
@@ -65,9 +68,12 @@ Navigate to the directory where the scripts are located using the cd command. Fo
 Run each script separately using the python command. For example:
 *python move_files_script.py*
 **THEN**
-*python rename_files_script.py*
+*python 2- Renaming files according to date taken.py*
 **THEN** 
-*python organize_files_script.py*
+*python 3- Photo sorter by month and year according to modification date.py*
+
+![image](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/8648d98b-fd42-48ca-8f7b-2ff110e06941)
+
 
 Alternatively, if you are using Python 3, replace python with python3 in the commands.
 Check the output of each script in the console to ensure there are no errors and to see the progress or any messages printed by the scripts.
