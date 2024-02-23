@@ -11,11 +11,19 @@ The second script (rename_files_by_creation_datetime) renames all files in E:\Ph
 Duplicate names are handled by appending a counter to the filename if needed.
 After execution, all files in E:\Photos are renamed based on their creation date and time.
 
-**3rd Script - Organize Files Script:**
+**3rd Script - Organize Files Script:   !!!!Choose which script do you want to run!!!!**  
 
-The third script (organize_photos_by_year_month) organizes files in E:\files based on their modified date. It creates folders for each year and month and moves the corresponding files into these folders.
+Option 1: Photo sorter by month and year according to modification date
+This script script (organize_photos_by_year_month) organizes files in E:\files based on their modified date. It creates folders for each year and month and moves the corresponding files into these folders.
 It iterates through each file in E:\files, retrieves its modification time, creates a destination folder based on the year and month, and moves the file to the destination folder.
 After execution, files in E:\files are organized into folders based on their modification date.
+
+Option 2: Photo sorter by month and year according to date taken
+It uses the Pillow library to extract the date taken from image metadata and then organizes the photos into subfolders based on that date. The get_date_taken function attempts to extract the date taken from the image metadata, and the organize_photos_by_date_taken function then uses this information to move the files to the appropriate subfolders. If the date taken information is not available for a file, it will be skipped and a message will be printed.
+
+
+
+
 In summary:
 
 Initially, all files from E:\Photos are moved to E:\files.
