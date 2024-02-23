@@ -64,13 +64,17 @@ Before running any scripts that modify or move files, it's a good practice to cr
 Run Scripts:
 Open a command prompt or terminal window.
 Navigate to the directory where the scripts are located using the cd command. For example:
+
 ***cd path\to\script\directory***
 
 Run each script separately using the python command. For example:
+
 *python move_files_script.py*
 **THEN**
+
 *python 2- Renaming files according to date taken.py*
 **THEN** 
+
 *python 3- Photo sorter by month and year according to modification date.py*
 
 ![image](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/8648d98b-fd42-48ca-8f7b-2ff110e06941)
