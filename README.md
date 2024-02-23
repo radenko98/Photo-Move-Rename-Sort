@@ -5,11 +5,14 @@ Let's go through the sequence of execution for the provided Python scripts:
 The first script (move_files_to_destination) moves all files from source folder and its subfolders to a single folder. It iterates through all files in the source folder and its subfolders using os.walk and moves each file to the destination folder using shutil.move.
 After execution, all files from source folder(E:\Photos) and its subfolders are moved to a single folder (E:\files).
 
-**2nd Script - Rename Files Script:**
+**2nd Script - Rename Files Script:   !!!!Choose which script do you want to run, you have 2 options!!!!**  
 
-The second script (rename_files_by_creation_datetime) renames all files in E:\Photos based on their creation date and time. It iterates through each file, retrieves its creation time, and renames the file using a format like 'YYYYMMDD_HHMMSS'.
-Duplicate names are handled by appending a counter to the filename if needed.
-After execution, all files in E:\Photos are renamed based on their creation date and time.
+**Option 1: Renaming files according to creation date**
+This script (rename_files_by_creation_datetime) renames all files in E:\Photos based on their creation date and time. It iterates through each file, retrieves its creation time, and renames the file using a format like 'YYYYMMDD_HHMMSS'.
+Duplicate names are handled by appending a counter to the filename if needed. After execution, all files in E:\Photos are renamed based on their creation date and time.
+
+**Option 2: Renaming files according to date taken**
+This script includes the get_date_taken function to extract the date taken from image metadata using the Pillow library. The rename_files_by_date_taken function then renames files based on this date taken information.
 
 **3rd Script - Organize Files Script:   !!!!Choose which script do you want to run, you have 2 options!!!!**  
 
