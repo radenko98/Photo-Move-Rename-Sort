@@ -2,8 +2,8 @@ Let's go through the sequence of execution for the provided Python scripts:
 
 **1st Script - Move Files Script:**
 
-The first script (move_files_to_destination) moves all files from E:\Photos to E:\files. It iterates through all files in the source folder and its subfolders using os.walk and moves each file to the destination folder using shutil.move.
-After execution, all files from E:\Photos are moved to E:\files.
+The first script (move_files_to_destination) moves all files from source folder and its subfolders to a single folder. It iterates through all files in the source folder and its subfolders using os.walk and moves each file to the destination folder using shutil.move.
+After execution, all files from source folder(E:\Photos) and its subfolders are moved to a single folder (E:\files).
 
 **2nd Script - Rename Files Script:**
 
