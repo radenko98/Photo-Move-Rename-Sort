@@ -70,9 +70,11 @@ Navigate to the directory where the scripts are located using the cd command. Fo
 Run each script separately using the python command. For example:
 
 *python move_files_script.py*
+
 **THEN**
 
 *python 2- Renaming files according to date taken.py*
+
 **THEN** 
 
 *python 3- Photo sorter by month and year according to modification date.py*
