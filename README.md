@@ -27,7 +27,7 @@ After execution, files in E:\files are organized into folders based on their mod
 
 **Option 2: Photo sorter by month and year according to date taken**
 
-To use this script, you need to first run a command in python console "pip install Pillow"
+To use this script, you need to first run a command in python console "pip install Pillow"  ![image](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/79c298b5-a0d5-44a5-a470-becc24a3737f)
 This script uses the Pillow library to extract the date taken value from image metadata and then organizes the photos into subfolders based on that date. The get_date_taken function attempts to extract the date taken value from the image metadata, and the organize_photos_by_date_taken function then uses this information to move the files to the appropriate subfolders. If the date taken information is not available for a file, it will be skipped and a message will be printed.
 
 
