@@ -2,32 +2,15 @@ Hello!
 
 This repository has 3 python scripts. 
 
-First python script is file_mover.py, asks end-user to select source and destination folders. It then moves all files from the selected source folder and its subfolders to the chosen destination folder.
+***First python script is file_mover.py***, asks end-user to select source and destination folders. It then moves all files from the selected source folder and its subfolders to the chosen destination folder.
 
-Second python script is renaming_files.py, provides functionality to rename files within a selected folder. It includes two options for renaming:
+***Second python script is renaming_files.py***, provides functionality to rename files within a selected folder. It includes two options for renaming:
 
 Rename by Creation Datetime: Renames files based on their creation datetime. Files are renamed using a format of "YYYYMMDD_HHMMSS" followed by the original file extension. If multiple files have the same creation datetime, a counter is added to the filename to avoid duplicates.
 
 Rename by Date Taken from Metadata: Attempts to extract the date taken from image files' metadata. If successful, it renames the files using the extracted date and time in the format "YYYYMMDD_HHMMSS" followed by the original file extension. If metadata extraction fails or if the file is not an image, it falls back to renaming by creation datetime.
 
-Third python script photo_sorter.py, organizes photos within a chosen folder based on their date taken metadata. It creates year and month subfolders for each photo's date taken and moves the photos accordingly. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+***Third python script photo_sorter.py***, organizes photos within a chosen folder based on their date taken metadata. It creates year and month subfolders for each photo's date taken and moves the photos accordingly. 
 
 
 
