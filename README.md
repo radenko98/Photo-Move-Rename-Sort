@@ -50,8 +50,10 @@ Check the output of each script in the console to ensure there are no errors and
 
  
 ***File_mover.py script will ask you to select source and destination folder like this.***
+
 Select source folder:
 <img width="761" alt="4" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/ea7ccf63-3ff4-45fd-99ac-16bbb2d215ef">
+
 Select the destination folder:
 <img width="729" alt="5" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/af5954e1-1f15-4759-8f11-0d7561e08cde">
 
@@ -62,7 +64,8 @@ After you select the folder, you will be asked to choose between renaming folder
 <img width="260" alt="7" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/983b15db-44e2-48ff-8051-fff7fcf77fd4">
 
 
-***Photo_sorter.py script prompts the user to choose a folder that contains the files that need to be sorted according to their date taken value from metadata.Like this:***
+***The "Photo_sorter.py" script prompts users to select a folder containing files to be organized based on their date take values, as recorded in metadata.***
+
 <img width="752" alt="6" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/6f0dbcf0-b40b-4a2f-ae46-22ce40e06ed6">
 
 
