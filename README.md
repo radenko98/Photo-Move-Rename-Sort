@@ -62,7 +62,10 @@ After you select the folder, you will be asked to choose between renaming folder
 <img width="260" alt="7" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/983b15db-44e2-48ff-8051-fff7fcf77fd4">
 
 
-***Photo_sorter.py script w
+***Photo_sorter.py script prompts the user to choose a folder that contains the files that need to be sorted according to their date taken value from metadata.Like this:***
+<img width="752" alt="6" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/6f0dbcf0-b40b-4a2f-ae46-22ce40e06ed6">
+
+
 
 
 ![Example](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/d6eeb744-0c3b-4478-998f-fa09211d8f43)
