@@ -13,9 +13,16 @@ Rename by Date Taken from Metadata: Attempts to extract the date taken from imag
 
 ***Third python script photo_sorter.py***, organizes photos within a chosen folder based on their date taken metadata. It creates year and month subfolders for each photo's date taken and moves the photos accordingly. 
 
+***Easy way to run***
+
+I've converted these scripts into EXE files for your convenience. Simply run the EXE files and follow the instructions. Unfortunately, I couldn't upload them to GitHub due to the 25MB limit, as the EXE files are around 50-60MB. You can download the files from the following link: https://drive.google.com/drive/folders/1FDDpCKrTq-wWm9KTNNYeifsRooe7gJ83?usp=sharing. 
+After downloading, extract the files from the archive using the password "windows" and proceed to run them.
 
 
-***HOW TO RUN***
+![exe](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/39eb81ec-4931-4dda-bdce-bd54d3192427)
+
+
+***Harder way to to RUN*** LOL
 
 
 To run the provided Python scripts, you can follow these general steps:
