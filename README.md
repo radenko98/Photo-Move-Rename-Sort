@@ -43,12 +43,14 @@ Delete the path in the file explorer and type CMD
 
 
 
-***Alternatively, if you are using Python 3, replace python with python3 in the commands
-Check the output of each script in the console to ensure there are no errors and to see the progress or any messages printed by the scripts.***
+Alternatively, if you are using Python 3, replace python with python3 in the commands
+Check the output of each script in the console to ensure there are no errors and to see the progress or any messages printed by the scripts.
 
 
 
- 
+
+***More information on how the scripts work***
+
 ***File_mover.py script will ask you to select source and destination folder like this.***
 
 Select source folder:
@@ -71,6 +73,9 @@ After you select the folder, you will be asked to choose between renaming folder
 <img width="752" alt="6" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/6f0dbcf0-b40b-4a2f-ae46-22ce40e06ed6">
 
 
+
+
+***In the end you will get a folder like this:***
 
 
 ![Example](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/d6eeb744-0c3b-4478-998f-fa09211d8f43)
