@@ -52,9 +52,11 @@ Check the output of each script in the console to ensure there are no errors and
 ***File_mover.py script will ask you to select source and destination folder like this.***
 
 Select source folder:
+
 <img width="761" alt="4" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/ea7ccf63-3ff4-45fd-99ac-16bbb2d215ef">
 
 Select the destination folder:
+
 <img width="729" alt="5" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/af5954e1-1f15-4759-8f11-0d7561e08cde">
 
 
