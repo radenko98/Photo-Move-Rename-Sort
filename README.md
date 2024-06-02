@@ -11,7 +11,14 @@ Rename by Creation Datetime: Renames files based on their creation datetime. Fil
 
 Rename by Date Taken from Metadata: Attempts to extract the date taken from image files' metadata. If successful, it renames the files using the extracted date and time in the format "YYYYMMDD_HHMMSS" followed by the original file extension. If metadata extraction fails or if the file is not an image, it falls back to renaming by creation datetime.
 
-***Third python script photo_sorter.py***, organizes photos within a chosen folder based on their date taken metadata. It creates year and month subfolders for each photo's date taken and moves the photos accordingly. 
+***Third python script is photo_sorter_by_name_or_by_datetaken.py***, this script organizes photos in a selected folder by either their filenames or the dates they were taken, with the option chosen by the user at runtime.
+
+Features:
+***Organize by Filename:*** Assumes filenames follow the format YYYYMMDD_xxx.ext. It extracts the year and month from the filename, creates corresponding folders, and moves the photos into these folders.
+***Organize by Date Taken:*** Uses EXIF metadata to determine the date the photo was taken. It extracts the year and month from the EXIF data, creates corresponding folders, and moves the photos into these folders.
+***Handle Duplicate Names:*** If a file with the same name already exists in the destination folder, it appends a unique suffix to the filename to avoid overwriting.
+
+
 
 ***NOTE:***
 
