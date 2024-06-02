@@ -28,11 +28,9 @@ Features:
 
 ***Easy way to run***
 
-I've converted these scripts into EXE files for your convenience. Simply run the EXE files and follow the instructions. Unfortunately, I couldn't upload them to GitHub due to the 25MB limit, as the EXE files are around 50-60MB. You can download the files from the following link: https://drive.google.com/drive/folders/1FDDpCKrTq-wWm9KTNNYeifsRooe7gJ83?usp=sharing. 
-After downloading, extract the files from the archive using the password "windows" and proceed to run them.
+I've converted these scripts into EXE files for your convenience. Simply run the EXE files and follow the instructions. Unfortunately, I couldn't upload them to GitHub due to the 25MB limit, as the EXE files are around 50-60MB. You can download the files from the following link: https://drive.google.com/drive/folders/1FDDpCKrTq-wWm9KTNNYeifsRooe7gJ83?usp=sharing. After downloading, extract the files from the archive using the password "windows" and proceed to run them. Each folder contains a sub-folder called "dist". Open that folder and run the EXE file. 
 
-
-![exe](https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/39eb81ec-4931-4dda-bdce-bd54d3192427)
+<img width="345" alt="How to" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/b05768e0-5e54-4a0c-9164-aeed1ff1d4d3">
 
 
 ***Harder way to to RUN*** LOL
