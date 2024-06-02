@@ -15,8 +15,9 @@ Rename by Date Taken from Metadata: Attempts to extract the date taken from imag
 
 ***NOTE:***
 
-***The second and third scripts will not function correctly if the file lacks a Date Taken value. These scripts rely on extracting EXIF data from a file to rename it (second script) and move it (third script). EXIF (Exchangeable Image File Format) data is a type of metadata embedded within image files, primarily JPEG and TIFF formats. Additionally, the second and third scripts are NOT going to work with HEIF files.***
+***The script can technically handle any file type for renaming by creation date, but metadata-based renaming (using the date taken) is specifically effective for JPEG files. 
 
+Which means that the second and third scripts will not function properly if the file lacks a Date Taken value, as those two scripts rely on extracting EXIF data to rename (second script) and move (third script) the files. EXIF (Exchangeable Image File Format) data is a type of metadata embedded within image files, primarily JPEG and TIFF formats. Additionally, the second and third scripts will not work properly with HEIF files.***
 
 ***Easy way to run***
 
