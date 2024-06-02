@@ -15,7 +15,9 @@ Rename by Date Taken from Metadata: Attempts to extract the date taken from imag
 
 Features:
 ***Organize by Filename:*** Assumes filenames follow the format YYYYMMDD_xxx.ext. It extracts the year and month from the filename, creates corresponding folders, and moves the photos into these folders.
+
 ***Organize by Date Taken:*** Uses EXIF metadata to determine the date the photo was taken. It extracts the year and month from the EXIF data, creates corresponding folders, and moves the photos into these folders.
+
 ***Handle Duplicate Names:*** If a file with the same name already exists in the destination folder, it appends a unique suffix to the filename to avoid overwriting.
 
 
@@ -47,16 +49,20 @@ Before running any scripts that modify or move files, it's a good practice to cr
 ***3. Run Scripts:***
 Open a command prompt in the folder that contains the scripts that you want to run, like this: 
 
-<img width="626" alt="1" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/40819b39-9779-42c4-8429-b9edb7e7945b">
+<img width="626" alt="1" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/cfb66369-3256-4baf-8eea-30bf9390da64">
+
 
 ***4.Path*** - 
 Delete the path in the file explorer and type CMD
 
-<img width="564" alt="2" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/b2404765-7d47-49a7-aadf-6a9792a1c69d">
+<img width="564" alt="2" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/b05cefb8-e11a-4ff3-8c37-c179f0e67b4c">
+
 
 ***5. Running the script*** - Type the command "python file_mover.py" and press enter
 
-<img width="712" alt="3" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/49f739c2-f830-498c-9a3c-daa2a5880ed1">
+<img width="712" alt="3" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/9a4373da-f7a8-4f4b-849b-89edb3103f22">
+
+
 
 
 
@@ -73,11 +79,13 @@ Check the output of each script in the console to ensure there are no errors and
 
 Select source folder:
 
-<img width="761" alt="4" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/ea7ccf63-3ff4-45fd-99ac-16bbb2d215ef">
+<img width="761" alt="4" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/d27577a3-af88-477f-b8e8-f5597075a953">
+
 
 Select the destination folder:
 
-<img width="729" alt="5" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/af5954e1-1f15-4759-8f11-0d7561e08cde">
+<img width="729" alt="5" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/a789e7f2-e689-4ccc-bba6-4f2b5fea4498">
+
 
 
 ***Renaming_files.py script will ask you to select the folder that contains the files you want renamed.***
@@ -86,10 +94,9 @@ After you select the folder, you will be asked to choose between renaming folder
 <img width="260" alt="7" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/983b15db-44e2-48ff-8051-fff7fcf77fd4">
 
 
-***The "Photo_sorter.py" script prompts users to select a folder containing files to be organized based on their date take values, as recorded in metadata.***
+***The "Photo_sorter.py" script prompts users to select a folder containing files to be organized according to their date taken value (as recorded in metadata) or according to filename.***
 
-<img width="752" alt="6" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/6f0dbcf0-b40b-4a2f-ae46-22ce40e06ed6">
-
+<img width="821" alt="6" src="https://github.com/radenko98/Photo-Move-Rename-Sort/assets/22021972/49d7ddd7-ec00-49dc-9fb5-a53182d51cce">
 
 
 
