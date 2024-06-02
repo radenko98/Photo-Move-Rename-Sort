@@ -13,6 +13,11 @@ Rename by Date Taken from Metadata: Attempts to extract the date taken from imag
 
 ***Third python script photo_sorter.py***, organizes photos within a chosen folder based on their date taken metadata. It creates year and month subfolders for each photo's date taken and moves the photos accordingly. 
 
+***NOTE:***
+
+***The second and third scripts will not function correctly if the file lacks a Date Taken value. These scripts rely on extracting EXIF data from a file to rename it (second script) and move it (third script). EXIF (Exchangeable Image File Format) data is a type of metadata embedded within image files, primarily JPEG and TIFF formats. Additionally, the second and third scripts are NOT going to work with HEIF files.***
+
+
 ***Easy way to run***
 
 I've converted these scripts into EXE files for your convenience. Simply run the EXE files and follow the instructions. Unfortunately, I couldn't upload them to GitHub due to the 25MB limit, as the EXE files are around 50-60MB. You can download the files from the following link: https://drive.google.com/drive/folders/1FDDpCKrTq-wWm9KTNNYeifsRooe7gJ83?usp=sharing. 
