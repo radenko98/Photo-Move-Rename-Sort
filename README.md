@@ -30,7 +30,7 @@ Features:
 
 ***Easy way to run***
 
-I've converted these scripts into EXE files for your convenience. Simply run the EXE files and follow the instructions. Unfortunately, I couldn't upload them to GitHub due to the 25MB limit, as the EXE files are around 50-60MB. You can download the files from the following link: [https://drive.google.com/drive/folders/1FDDpCKrTq-wWm9KTNNYeifsRooe7gJ83?usp=sharing](https://drive.google.com/drive/u/9/folders/1vHxWnsvPEbYWIjmbyeCbiD6OL4F8Bnav). 
+I've converted these scripts into executable (EXE) files for your convenience. Simply run the EXE files and follow the instructions. Unfortunately, I couldn't upload them to GitHub due to the 25MB limit, as the EXE files are around 50-60MB. You can download the files from the following link: [https://drive.google.com/drive/folders/1FDDpCKrTq-wWm9KTNNYeifsRooe7gJ83?usp=sharing](https://drive.google.com/drive/u/9/folders/1vHxWnsvPEbYWIjmbyeCbiD6OL4F8Bnav). 
 
 
 ***Harder way to to RUN*** LOL
